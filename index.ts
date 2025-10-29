@@ -1,3 +1,9 @@
+// TypeScript Basic Features Demonstration
+
+
+
+
+//--- Module1 -----
 let course: string = "Learning TypeScript";
 console.log(`Hello, ${course}`);
 
@@ -138,3 +144,97 @@ console.log(`Addition: ${addNumber(5, 10)}`);
 
 
 // Union and intersection Types
+
+
+//union type
+type myUser={
+    name:string;
+    email:string;
+    age:number;
+    gender: "female" | "male"; // union type
+    bloodGroup: "A+" | "A-" | "B+" | "B-" | "O+" | "O-" | "AB+" | "AB-"; // union type
+
+}
+
+const userA: myUser={
+    name:"Salah",
+    email:"salah@example.com",
+    age:30,
+    gender:"male",
+    bloodGroup:"O+"
+};
+
+// intersection type
+
+type frontEndDeveloper={
+    skills:string[];
+    experience:number;
+    designaitions1: "Junior Developer" | "Mid-level Developer" | "Senior Developer";
+
+}
+
+type backEndDeveloper={
+    skills:string[];
+    experience:number;
+    designaitions2: "Junior Developer" | "Mid-level Developer" | "Senior Developer";
+    
+}
+
+type fullStackDeveloper= frontEndDeveloper & backEndDeveloper;
+
+const developer: fullStackDeveloper={
+    skills:["JavaScript", "TypeScript", "Node.js", "React"],
+    experience:5,
+    designaitions1:"Senior Developer",
+    designaitions2:"Mid-level Developer"
+};
+
+
+console.log(`Developer Skills: ${developer.skills.join(", ")}, Experience: ${developer.experience} years, Designation1: ${developer.designaitions1}, Designation2: ${developer.designaitions2}`);
+
+
+// nullish coalescing operator
+const userInput: string | null = null;
+const defaultInput: string = "Default Value";
+const finalInput: string = userInput ?? defaultInput;
+console.log(`Final Input: ${finalInput}`);
+
+// Never type, Unknown type, and Nullable type example
+
+//nullable type
+const searchName= (value: string | null )=>{
+    if(value){
+        console.log(`Searching for ${value}...`);
+    }else{
+        console.log("No name provided for search.");
+    }
+}
+
+searchName(null);
+
+
+//unknown type
+let unknownValue = (value: unknown) => { return value };
+
+if (typeof unknownValue("This is a string") === "string") {
+    console.log(`Unknown Value: ${unknownValue(`${unknownValue("This is a string")}`)}`);
+}if(typeof unknownValue(123) === "number"){
+    console.log("Unknown Value is number.");
+}if(typeof unknownValue(true) === "boolean"){
+    console.log("Unknown Value is boolean.");
+} else {
+    console.log("Unknown Value is not a string.");
+}
+
+// never type
+const throwError = (message: string): never => {
+    throw new Error(message);
+};
+// Uncommenting the line below will throw an error
+// throwError("This is a never type error!");
+console.log("TypeScript basic features demonstration completed.");
+
+
+
+//-----Modul2 ------> Explore advanced type of TypeScript
+
