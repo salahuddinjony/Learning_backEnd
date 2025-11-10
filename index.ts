@@ -844,3 +844,96 @@ const myAccount= new BankAccount("123456789", "Salah", 1000);
 
 myAccount.deposit(500);
 console.log(`Current Balance: ${myAccount.getBalance()}`);
+
+// Abstract Classes and Methods
+abstract class Shape{
+    abstract area(): number;
+    abstract perimeter(): number;
+
+    displayInfo(): void{
+        console.log(`Area: ${this.area()}, Perimeter: ${this.perimeter()}`);
+    }
+}
+class Rectangle extends Shape{
+    constructor(private width: number, private height: number){
+        super();
+    }
+
+    area(): number{
+        return this.width * this.height;
+    }
+    perimeter(): number{
+        return 2 * (this.width + this.height);
+    }
+}
+class Circle extends Shape{
+    constructor(private radius: number){
+        super();
+    }
+
+    area(): number{
+        return Math.PI * this.radius * this.radius;
+    }
+    perimeter(): number{
+        return 2 * Math.PI * this.radius;
+    }
+}
+const rectangle= new Rectangle(10, 5);
+console.log("----Rectangle Info----");
+rectangle.displayInfo();
+const circle= new Circle(7);
+console.log("----Circle Info----");
+circle.displayInfo();
+
+
+// Interfaces in OOP
+interface Vehicle{
+    start(): void;
+    stop(): void;
+    getSpeed(): number;
+}
+class CarVehicle implements Vehicle{
+    private speed: number;
+
+    constructor(){
+        this.speed= 0;
+    }
+
+    start(): void{
+        this.speed= 60;
+        console.log("Car started.");
+    }
+    stop(): void{
+        this.speed= 0;
+        console.log("Car stopped.");
+    }
+    getSpeed(): number{
+        return this.speed;
+    }
+}
+const myCarVehicle= new CarVehicle();
+myCarVehicle.start();
+console.log(`Current Speed: ${myCarVehicle.getSpeed()}`);
+myCarVehicle.stop();
+console.log(`Current Speed: ${myCarVehicle.getSpeed()}`);
+// Module4 --> Decorators in TypeScript
+// Class Decorator
+function Logger(constructor: Function){
+    console.log(`Class Decorator: ${constructor.name} has been created.`);
+}
+@Logger
+class PersonDecorated{
+    constructor(public name: string, public age: number){}
+}
+const personDecorated= new PersonDecorated("Salah", 27);
+console.log(`Person Decorated: Name: ${personDecorated.name}, Age: ${personDecorated.age}`);
+// Method Decorator
+function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescriptor){
+    const originalMethod= descriptor.value;
+    descriptor.value= function(...args: any[]){
+        console.log(`Method Decorator: Calling ${propertyKey} with arguments: ${JSON.stringify(args)}`);
+        const result= originalMethod.apply(this, args);
+        console.log(`Method Decorator: ${propertyKey} returned: ${JSON.stringify(result)}`);
+        return result;
+    }
+}
