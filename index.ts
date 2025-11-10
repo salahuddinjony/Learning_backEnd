@@ -736,3 +736,111 @@ console.log(`Product Catalog: ${JSON.stringify(catalog)}`);
 
 
 // Module3 --> OOP in TypeScript
+
+// Class and Object
+
+class Animal{
+    constructor(public name:string, public species:string, public age:number){}
+
+    printInfo(): void{
+        console.log(`Animal Info: Name: ${this.name}, Species: ${this.species}, Age: ${this.age}`);
+    }
+
+}
+
+const animal = new Animal("Leo", "Lion", 5);
+animal.printInfo();
+
+// Inheritance
+
+class parent{
+    name: string;
+    id: number;
+    address: string;   
+    constructor(name: string, id: number, address: string){
+        this.name= name;
+        this.id= id;
+        this.address= address;
+    }
+    showInfo(): void{
+        console.log(`Parent Info: Name: ${this.name}, ID: ${this.id}, Address: ${this.address}`);
+    }
+}
+
+class student extends parent{
+    major:string;
+    gpa:number;
+    constructor(name:string, id:number, address:string, major:string, gpa:number){
+        super(name, id, address);
+        this.major= major;
+        this.gpa= gpa;
+    }
+    showStudentInfo(): void{
+        this.showInfo();
+        console.log(`Student Info: Major: ${this.major}, GPA: ${this.gpa}`);
+    }
+
+}
+
+class teacher extends parent{
+    designation:string;
+    salary:number;
+    subjects:string[];
+    constructor(name:string, id:number, address:string, designation:string, salary:number, subjects:string[]){
+        super(name, id, address);
+        this.designation= designation;
+        this.salary= salary;
+        this.subjects= subjects;
+    }
+    showTeacherInfo(): void{
+        this.showInfo();
+        console.log(`Teacher Info: Designation: ${this.designation}, Salary: ${this.salary}, Subjects: ${this.subjects.join(", ")}`);
+    }
+}
+
+const parent1= new parent("John", 1, "789 Pine St");
+console.log("----Parent Info----");
+parent1.showInfo();
+
+const student111= new student("Alice", 101, "123 Main St", "Computer Science", 3.8);
+
+console.log("----Student Info----");
+student111.showStudentInfo();
+
+const teacher111= new teacher("Bob", 201, "456 Elm St", "Professor", 60000, ["Math", "Physics"]);
+console.log("----Teacher Info----");
+teacher111.showTeacherInfo();
+
+
+// Access Modifiers
+
+class BankAccount{
+    private accountNumber: string;
+    protected balance: number;
+    public accountHolderName: string;
+
+    constructor(accountNumber: string, accountHolderName: string, initialBalance: number){
+        this.accountNumber= accountNumber;
+        this.accountHolderName= accountHolderName;
+        this.balance= initialBalance;
+
+
+    }
+
+    public deposit(amount:number): void{
+        if(amount> 0){
+            this.balance += amount;
+            console.log(`Deposited: ${amount}. New Balance: ${this.balance}`);
+        }else{
+            console.log("Deposit amount must be positive.");
+        }
+    }
+    public getBalance(): number{
+        return this.balance;
+    }
+}
+
+const myAccount= new BankAccount("123456789", "Salah", 1000);
+
+myAccount.deposit(500);
+console.log(`Current Balance: ${myAccount.getBalance()}`);
