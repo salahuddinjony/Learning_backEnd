@@ -13,7 +13,7 @@ console.log(`Count is: ${count}`);
 
 const user: {
     company: "BS 23", // literal type
-    readonly position: String;
+    readonly position: String; // readonly property
     name: String;
     age?: Number; // optional property
     email: String;
@@ -55,7 +55,7 @@ console.log(`Combined: ${combined}`);
 
 const mentor1 = {
     name: "Charlie",
-    expertise: "TypeScript",
+    expertise: "TypeScript", // literal type
 }
 const mentor2 = {
     name: "Diana",
@@ -198,7 +198,7 @@ console.log(`Developer Skills: ${developer.skills.join(", ")}, Experience: ${dev
 const userInput: string | null = null;
 const defaultInput: string = "Default Value";
 const finalInput: string = userInput ?? defaultInput;
-console.log(`Final Input: ${finalInput}`);
+console.log(`Final Input: ${finalInput}`); // Output: "Final Input: Default Value"
 
 // Never type, Unknown type, and Nullable type example
 
@@ -211,7 +211,8 @@ const searchName = (value: string | null) => {
     }
 }
 
-searchName(null);
+searchName(null); // Output: "No name provided for search."
+searchName("Alice"); // Output: "Searching for Alice..."
 
 
 //unknown type
@@ -229,7 +230,7 @@ if (typeof unknownValue("This is a string") === "string") {
 
 // never type
 const throwError = (message: string): never => {
-    throw new Error(message);
+    throw new Error(message); // This function will never return a value, it will always throw an error
 };
 // Uncommenting the line below will throw an error
 // throwError("This is a never type error!");
@@ -261,6 +262,10 @@ console.log(`500 kg in gm: ${kgToGm('500')} gm`);
 
 
 //Interface vs Type Alias
+// Type Alias vs Interface
+// Type Alias can represent primitive types, union types, intersection types, and more complex types, while Interface is primarily used to define the shape of an object or a class.
+// Type Alias can be used to create a new name for any type, including primitive types, union types, intersection types, and more complex types. Interface is specifically designed to define the structure of an object or a class.
+// Type Alias cannot be reopened to add new properties, while Interface can be extended or implemented by other interfaces or classes to add new properties or methods.
 
 // Type Alias
 type Bike = {
@@ -269,7 +274,7 @@ type Bike = {
     engineNumber: string;
     price: number;
 }
-type BikeDetails = Bike & { description: string };
+type BikeDetails = Bike & { description: string }; // Intersection type to add description property to Bike type
 
 const myBike: BikeDetails = {
     name: "Honda",
@@ -384,6 +389,7 @@ const userTuple: GenericTuple<usedUser, studentUser> = [
     { name: 'Salah', email: 'salah@example.com' },
     { stdId: '1001', major: 'Computer Science' }
 ];
+
 userTuple.forEach((item, index) => {
     console.log(`Tuple Item ${index + 1}: ${JSON.stringify(item)}`);
 });
@@ -494,6 +500,7 @@ const genericFun=<T>(value: T) :T[]=>{
     return [value];
 }
 
+
 type GenericType1={
     id: number;
     score: number;
@@ -537,7 +544,7 @@ for(const key in advancedStudent){
 
 // constraints in generics
 
-// extending generic function with constraints, must have username and password properties ans also allow extra properties
+// extending generic function with constraints, must have username and password properties and also allow extra properties
 const loginUser = <T extends { username: string; password: string; }>(user: T): T => {
     return user;
 }
@@ -545,7 +552,7 @@ const loggedInUser = loginUser({ username: "testuser", password: "password123" ,
 console.log(`Logged in User: ${loggedInUser.username}`);
 console.log(`Password: ${loggedInUser.password}`);
 
-// generic constraints using keyof
+// generic constraints using keyof- create a function that takes an object and a key, and returns the value of that key in the object, but only if the key exists in the object
 
 const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
     return obj[key];
@@ -556,7 +563,7 @@ const userObj = {
     email: "salah@example.com"
 }
 const userName = getProperty(userObj, "name");
-console.log(`User Name: ${userName}`);
+console.log(`User Name: ${userName}`); //   Output: "User Name: Salah"
 
 
 // asynchronous typescript -- using async await and promise
@@ -593,7 +600,7 @@ console.log(`User Name: ${userName}`);
 //         console.log("Promise handling completed.");
 //     }
 // }
-// showData();
+// showData(); // Output: "id: 1", "name: Salah", "email: salah@example.com"
 
 
 // const fetchUserData= async() =>{
@@ -606,7 +613,7 @@ console.log(`User Name: ${userName}`);
 //     const data = await response.json();
 //     console.log(`Fetched User Data: ${JSON.stringify(data)}`);
 // }
-// fetchUserData();
+// fetchUserData(); // Output: "Fetched User Data: {"id": 1, "name": "Salah", "email": "salah@example.com"}"
 
 // conditional types
 type IsString<T> = T extends string ? "Yes, it's a string" : "No, it's not a string";
@@ -617,8 +624,8 @@ type Test2 = IsString<number>; // "No, it's not a string"
 
 const testString: Test1 = "Yes, it's a string";
 const testNumber: Test2 = "No, it's not a string";
-console.log(`Test1: ${testString}`);
-console.log(`Test2: ${testNumber}`);
+console.log(`Test1: ${testString}`); // Output: "Test1: Yes, it's a string"
+console.log(`Test2: ${testNumber}`); // Output: "Test2: No, it's not a string"
 
 
 type Sheikh={
@@ -638,7 +645,7 @@ type TestVehicle1 = VehicleType<"bike" | "car" | "bus" | "train" | "airplane" | 
 
 const vehicleTest1: TestVehicle1 = "All vehicles are available";
 
-console.log(`Vehicle Test1: ${vehicleTest1}`);
+console.log(`Vehicle Test1: ${vehicleTest1}`); // Output: "Vehicle Test1: All vehicles are available"
 
 // Mapped Types with Generics
 
@@ -679,7 +686,7 @@ type Product = {
 }
 
 // Pick Utility Type-make a new type by picking specific properties from an existing type
-type PickedProduct = Pick<Product, "id" | "name" | "price">;
+type PickedProduct = Pick<Product, "id" | "name" | "price">; //must be used with the properties that exist in the original type
 const productA: PickedProduct = {
     id: 1,
     name: "Laptop",
@@ -748,13 +755,13 @@ class Animal{
 
 }
 
-const animal = new Animal("Leo", "Lion", 5);
-animal.printInfo();
+const animal = new Animal("Leo", "Lion", 5); // Create an instance of the Animal class
+animal.printInfo(); //  Output: "Animal Info: Name: Leo, Species: Lion, Age: 5"
 
 // Inheritance
 
 class parent{
-    name: string;
+    name: string; // parent class properties
     id: number;
     address: string;   
     constructor(name: string, id: number, address: string){
@@ -771,7 +778,7 @@ class student extends parent{
     major:string;
     gpa:number;
     constructor(name:string, id:number, address:string, major:string, gpa:number){
-        super(name, id, address);
+        super(name, id, address); // Call the parent class constructor
         this.major= major;
         this.gpa= gpa;
     }
@@ -783,7 +790,7 @@ class student extends parent{
 }
 
 class teacher extends parent{
-    designation:string;
+    designation:string; // public by default
     salary:number;
     subjects:string[];
     constructor(name:string, id:number, address:string, designation:string, salary:number, subjects:string[]){
@@ -815,7 +822,7 @@ teacher111.showTeacherInfo();
 // Access Modifiers
 
 class BankAccount{
-    private accountNumber: string;
+    private accountNumber: string; // private property, when not mentioned it is public by default
     protected balance: number;
     public accountHolderName: string;
 
@@ -826,7 +833,6 @@ class BankAccount{
 
 
     }
-
     public deposit(amount:number): void{
         if(amount> 0){
             this.balance += amount;
@@ -845,9 +851,9 @@ const myAccount= new BankAccount("123456789", "Salah", 1000);
 myAccount.deposit(500);
 console.log(`Current Balance: ${myAccount.getBalance()}`);
 
-// Abstract Classes and Methods
+// Abstract Classes and Methods- abstract class cannot be instantiated and can contain abstract methods that must be implemented by derived classes
 abstract class Shape{
-    abstract area(): number;
+    abstract area(): number; // abstract method, must be implemented by derived classes, this is a method signature without implementation
     abstract perimeter(): number;
 
     displayInfo(): void{
@@ -856,13 +862,13 @@ abstract class Shape{
 }
 class Rectangle extends Shape{
     constructor(private width: number, private height: number){
-        super();
-    }
+        super(); // Call the parent class constructor
+    } 
 
-    area(): number{
+    area(): number{ // Implementing the abstract method area
         return this.width * this.height;
     }
-    perimeter(): number{
+    perimeter(): number{ // Implementing the abstract method perimeter
         return 2 * (this.width + this.height);
     }
 }
@@ -886,7 +892,7 @@ console.log("----Circle Info----");
 circle.displayInfo();
 
 
-// Interfaces in OOP
+// Interfaces in OOP- interface defines a contract that classes can implement, specifying the structure and behavior that the implementing class must follow. It allows for defining the shape of an object, including properties and methods, without providing implementation details. Interfaces are used to achieve abstraction and polymorphism in TypeScript, enabling different classes to implement the same interface while providing their own specific implementations.
 interface Vehicle{
     start(): void;
     stop(): void;
@@ -913,15 +919,16 @@ class CarVehicle implements Vehicle{
 }
 const myCarVehicle= new CarVehicle();
 myCarVehicle.start();
-console.log(`Current Speed: ${myCarVehicle.getSpeed()}`);
+console.log(`Current Speed: ${myCarVehicle.getSpeed()}`); // Output: "Current Speed: 60"
 myCarVehicle.stop();
-console.log(`Current Speed: ${myCarVehicle.getSpeed()}`);
+console.log(`Current Speed: ${myCarVehicle.getSpeed()}`); // Output: "Current Speed: 0"
 // Module4 --> Decorators in TypeScript
-// Class Decorator
+
+// Class Decorator- a class decorator is a special type of decorator that can be applied to a class declaration. It allows you to modify or enhance the behavior of the class in some way. A class decorator is a function that takes the constructor of the class as an argument and can return a new constructor or modify the existing one.
 function Logger(constructor: Function){
     console.log(`Class Decorator: ${constructor.name} has been created.`);
 }
-@Logger
+@Logger // this means the Logger decorator will be applied to the PersonDecorated class, and it will log a message when the class is created.
 class PersonDecorated{
     constructor(public name: string, public age: number){}
 }
@@ -937,3 +944,44 @@ function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescrip
         return result;
     }
 }
+
+// 3-3: Type guard using typeof & in operator
+
+// Type Guard using typeof
+
+
+type alpheNumeric = string | number;
+
+const add = (a: alpheNumeric, b: alpheNumeric): alpheNumeric => {
+    if (typeof a === "string" || typeof b === "string") {
+        return a.toString() + b.toString();
+    }
+    return a + b;
+};
+
+console.log(`Addition of numbers: ${add(5, 10)}`); // Output: "Addition of numbers: 15"
+console.log(`Concatenation of strings: ${add("Hello, ", "TypeScript!")}`);
+console.log(`Concatenation of string and number: ${add("The answer is: ", 42)}`); // Output: "Concatenation of string and number: The answer is: 42"
+
+// Type Guard using in operator
+
+type normalUser= {
+    name: String;
+}
+type adminUser= {
+    name: String;
+    role: String;
+}
+
+const getUserInfo = (user: normalUser | adminUser): string => {
+    if ("role" in user) {
+        return `Admin User: Name: ${user.name}, Role: ${user.role}`;
+    }
+    return `Normal User: Name: ${user.name}`;
+}
+
+const normalUser1: normalUser = { name: "Alice" };
+const adminUser1: adminUser = { name: "Bob", role: "Administrator" };
+
+console.log(getUserInfo(normalUser1)); // Output: "Normal User: Name: Alice"
+console.log(getUserInfo(adminUser1)); // Output: "Admin User: Name: Bob, Role: Administrator"
