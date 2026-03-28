@@ -365,9 +365,9 @@ const userInfo: GenericArray<{ name: string; age: string | number; email: string
 
 userInfo.forEach(user => {
     console.log(`User Info: Name: ${user.name}, Age: ${user.age}, Email: ${user.email}, Student ID: ${user.stdId}, Department Code: ${user.deptCode}, Major: ${user.major}`);
-   if(userInfo.indexOf(user) !== userInfo.length -1){
-     console.log('---');
-   }
+    if (userInfo.indexOf(user) !== userInfo.length - 1) {
+        console.log('---');
+    }
 });
 
 
@@ -377,11 +377,11 @@ const tuple: GenericTuple<string, number> = ["Age", 30];
 
 console.log(`Tuple: ${tuple[0]} - ${tuple[1]}`);
 
-type usedUser={
+type usedUser = {
     name: string;
     email: string;
 }
-type studentUser={
+type studentUser = {
     stdId: string;
     major: string;
 }
@@ -445,7 +445,7 @@ const developer1: Developer<Computer, SmartWatch> = {
         model: "Apple Watch Series 6",
         features: ["Heart Rate Monitor", "GPS", "Sleep Tracking"]
     }
-   
+
 };
 const developer2: Developer<Computer, SmartWatch, RoyalBike> = {
     name: "Bob",
@@ -469,26 +469,26 @@ const developer2: Developer<Computer, SmartWatch, RoyalBike> = {
 
 console.log(`Developer 1: ${developer1.name}`);
 
-for(const key in developer1){
-    const value= developer1[key as keyof typeof developer1];
-    if(typeof value==='object'){
+for (const key in developer1) {
+    const value = developer1[key as keyof typeof developer1];
+    if (typeof value === 'object') {
         console.log(`${key}:`);
-        for(const subKey in value){ 
-            console.log(`  ${subKey}: ${value[subKey as keyof typeof value]}`);  
+        for (const subKey in value) {
+            console.log(`  ${subKey}: ${value[subKey as keyof typeof value]}`);
         }
-    }else{
+    } else {
         console.log(`${key}: ${value}`);
     }
 }
 console.log(`Developer 2: ${developer2.name}`);
-for(const key in developer2){
-    const value= developer2[key as keyof typeof developer2];
-    if(typeof value==='object'){
+for (const key in developer2) {
+    const value = developer2[key as keyof typeof developer2];
+    if (typeof value === 'object') {
         console.log(`${key}:`);
-        for(const subKey in value){ 
-            console.log(`  ${subKey}: ${value[subKey as keyof typeof value]}`);  
+        for (const subKey in value) {
+            console.log(`  ${subKey}: ${value[subKey as keyof typeof value]}`);
         }
-    }else{
+    } else {
         console.log(`${key}: ${value}`);
     }
 }
@@ -496,47 +496,47 @@ for(const key in developer2){
 // function with Generic 
 
 
-const genericFun=<T>(value: T) :T[]=>{
+const genericFun = <T>(value: T): T[] => {
     return [value];
 }
 
 
-type GenericType1={
+type GenericType1 = {
     id: number;
     score: number;
 }
 
-const result1= genericFun<string>("Hello TypeScript");
-const result2= genericFun<GenericType1>({id:1, score:95});
+const result1 = genericFun<string>("Hello TypeScript");
+const result2 = genericFun<GenericType1>({ id: 1, score: 95 });
 
 
-result2.forEach((item, index)=>{
+result2.forEach((item, index) => {
     console.log(`Result2 Item ${index + 1}:`);
-    for(const key in item){
+    for (const key in item) {
         console.log(`  ${key}: ${item[key as keyof typeof item]}`);
     }
 
 });
 
 
-const NextLevelFunctions= <T>(student: T) =>{
-    const comment ='Student Info processed successfully.';
+const NextLevelFunctions = <T>(student: T) => {
+    const comment = 'Student Info processed successfully.';
     return {
         ...student,
         comment
 
     }
 }
-const studentA={
+const studentA = {
     name: "Salah",
     age: 26,
     email: "salah@example.com"
 }
-const advancedStudent= NextLevelFunctions(studentA);
+const advancedStudent = NextLevelFunctions(studentA);
 
-for(const key in advancedStudent){
-    const value= advancedStudent[key as keyof typeof advancedStudent];
-    if(typeof value !== 'function'){
+for (const key in advancedStudent) {
+    const value = advancedStudent[key as keyof typeof advancedStudent];
+    if (typeof value !== 'function') {
         console.log(`${key}: ${value}`);
     }
 }
@@ -548,7 +548,7 @@ for(const key in advancedStudent){
 const loginUser = <T extends { username: string; password: string; }>(user: T): T => {
     return user;
 }
-const loggedInUser = loginUser({ username: "testuser", password: "password123" , extraField: "extraValue" });
+const loggedInUser = loginUser({ username: "testuser", password: "password123", extraField: "extraValue" });
 console.log(`Logged in User: ${loggedInUser.username}`);
 console.log(`Password: ${loggedInUser.password}`);
 
@@ -628,7 +628,7 @@ console.log(`Test1: ${testString}`); // Output: "Test1: Yes, it's a string"
 console.log(`Test2: ${testNumber}`); // Output: "Test2: No, it's not a string"
 
 
-type Sheikh={
+type Sheikh = {
     bike: string;
     car: string;
     bus: string;
@@ -651,8 +651,8 @@ console.log(`Vehicle Test1: ${vehicleTest1}`); // Output: "Vehicle Test1: All ve
 
 const arrOfNumber = [1, 2, 3, 4, 5];
 
-const arrOfString= arrOfNumber.map(
-    (num)=> num.toString()
+const arrOfString = arrOfNumber.map(
+    (num) => num.toString()
 );
 console.log(`Array of Strings: ${arrOfString}`);
 
@@ -662,17 +662,17 @@ type Person = {
     age: number;
     email: string;
 }
-type  ReadThePerson<T> ={
-    [key in keyof T ] : T[key];
+type ReadThePerson<T> = {
+    [key in keyof T]: T[key];
 }
 
-const personA: ReadThePerson<Person>={
+const personA: ReadThePerson<Person> = {
     name: "Salah",
     age: 27,
     email: "salah@example.com"
 }
 
-for(const key in personA){
+for (const key in personA) {
     console.log(`${key}: ${personA[key as keyof typeof personA]}`);
 }
 
@@ -746,10 +746,10 @@ console.log(`Product Catalog: ${JSON.stringify(catalog)}`);
 
 // Class and Object
 
-class Animal{
-    constructor(public name:string, public species:string, public age:number){}
+class Animal {
+    constructor(public name: string, public species: string, public age: number) { }
 
-    printInfo(): void{
+    printInfo(): void {
         console.log(`Animal Info: Name: ${this.name}, Species: ${this.species}, Age: ${this.age}`);
     }
 
@@ -760,164 +760,164 @@ animal.printInfo(); //  Output: "Animal Info: Name: Leo, Species: Lion, Age: 5"
 
 // Inheritance
 
-class parent{
+class parent {
     name: string; // parent class properties
     id: number;
-    address: string;   
-    constructor(name: string, id: number, address: string){
-        this.name= name;
-        this.id= id;
-        this.address= address;
+    address: string;
+    constructor(name: string, id: number, address: string) {
+        this.name = name;
+        this.id = id;
+        this.address = address;
     }
-    showInfo(): void{
+    showInfo(): void {
         console.log(`Parent Info: Name: ${this.name}, ID: ${this.id}, Address: ${this.address}`);
     }
 }
 
-class student extends parent{
-    major:string;
-    gpa:number;
-    constructor(name:string, id:number, address:string, major:string, gpa:number){
+class student extends parent {
+    major: string;
+    gpa: number;
+    constructor(name: string, id: number, address: string, major: string, gpa: number) {
         super(name, id, address); // Call the parent class constructor
-        this.major= major;
-        this.gpa= gpa;
+        this.major = major;
+        this.gpa = gpa;
     }
-    showStudentInfo(): void{
+    showStudentInfo(): void {
         this.showInfo();
         console.log(`Student Info: Major: ${this.major}, GPA: ${this.gpa}`);
     }
 
 }
 
-class teacher extends parent{
-    designation:string; // public by default
-    salary:number;
-    subjects:string[];
-    constructor(name:string, id:number, address:string, designation:string, salary:number, subjects:string[]){
+class teacher extends parent {
+    designation: string; // public by default
+    salary: number;
+    subjects: string[];
+    constructor(name: string, id: number, address: string, designation: string, salary: number, subjects: string[]) {
         super(name, id, address);
-        this.designation= designation;
-        this.salary= salary;
-        this.subjects= subjects;
+        this.designation = designation;
+        this.salary = salary;
+        this.subjects = subjects;
     }
-    showTeacherInfo(): void{
+    showTeacherInfo(): void {
         this.showInfo();
         console.log(`Teacher Info: Designation: ${this.designation}, Salary: ${this.salary}, Subjects: ${this.subjects.join(", ")}`);
     }
 }
 
-const parent1= new parent("John", 1, "789 Pine St");
+const parent1 = new parent("John", 1, "789 Pine St");
 console.log("----Parent Info----");
 parent1.showInfo();
 
-const student111= new student("Alice", 101, "123 Main St", "Computer Science", 3.8);
+const student111 = new student("Alice", 101, "123 Main St", "Computer Science", 3.8);
 
 console.log("----Student Info----");
 student111.showStudentInfo();
 
-const teacher111= new teacher("Bob", 201, "456 Elm St", "Professor", 60000, ["Math", "Physics"]);
+const teacher111 = new teacher("Bob", 201, "456 Elm St", "Professor", 60000, ["Math", "Physics"]);
 console.log("----Teacher Info----");
 teacher111.showTeacherInfo();
 
 
 // Access Modifiers
 
-class BankAccount{
+class BankAccount {
     private accountNumber: string; // private property, when not mentioned it is public by default
     protected balance: number;
     public accountHolderName: string;
 
-    constructor(accountNumber: string, accountHolderName: string, initialBalance: number){
-        this.accountNumber= accountNumber;
-        this.accountHolderName= accountHolderName;
-        this.balance= initialBalance;
+    constructor(accountNumber: string, accountHolderName: string, initialBalance: number) {
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
+        this.balance = initialBalance;
 
 
     }
-    public deposit(amount:number): void{
-        if(amount> 0){
+    public deposit(amount: number): void {
+        if (amount > 0) {
             this.balance += amount;
             console.log(`Deposited: ${amount}. New Balance: ${this.balance}`);
-        }else{
+        } else {
             console.log("Deposit amount must be positive.");
         }
     }
-    public getBalance(): number{
+    public getBalance(): number {
         return this.balance;
     }
 }
 
-const myAccount= new BankAccount("123456789", "Salah", 1000);
+const myAccount = new BankAccount("123456789", "Salah", 1000);
 
 myAccount.deposit(500);
 console.log(`Current Balance: ${myAccount.getBalance()}`);
 
 // Abstract Classes and Methods- abstract class cannot be instantiated and can contain abstract methods that must be implemented by derived classes
-abstract class Shape{
+abstract class Shape {
     abstract area(): number; // abstract method, must be implemented by derived classes, this is a method signature without implementation
     abstract perimeter(): number;
 
-    displayInfo(): void{
+    displayInfo(): void {
         console.log(`Area: ${this.area()}, Perimeter: ${this.perimeter()}`);
     }
 }
-class Rectangle extends Shape{
-    constructor(private width: number, private height: number){
+class Rectangle extends Shape {
+    constructor(private width: number, private height: number) {
         super(); // Call the parent class constructor
-    } 
+    }
 
-    area(): number{ // Implementing the abstract method area
+    area(): number { // Implementing the abstract method area
         return this.width * this.height;
     }
-    perimeter(): number{ // Implementing the abstract method perimeter
+    perimeter(): number { // Implementing the abstract method perimeter
         return 2 * (this.width + this.height);
     }
 }
-class Circle extends Shape{
-    constructor(private radius: number){
+class Circle extends Shape {
+    constructor(private radius: number) {
         super();
     }
 
-    area(): number{
+    area(): number {
         return Math.PI * this.radius * this.radius;
     }
-    perimeter(): number{
+    perimeter(): number {
         return 2 * Math.PI * this.radius;
     }
 }
-const rectangle= new Rectangle(10, 5);
+const rectangle = new Rectangle(10, 5);
 console.log("----Rectangle Info----");
 rectangle.displayInfo();
-const circle= new Circle(7);
+const circle = new Circle(7);
 console.log("----Circle Info----");
 circle.displayInfo();
 
 
 // Interfaces in OOP- interface defines a contract that classes can implement, specifying the structure and behavior that the implementing class must follow. It allows for defining the shape of an object, including properties and methods, without providing implementation details. Interfaces are used to achieve abstraction and polymorphism in TypeScript, enabling different classes to implement the same interface while providing their own specific implementations.
-interface Vehicle{
+interface Vehicle {
     start(): void;
     stop(): void;
     getSpeed(): number;
 }
-class CarVehicle implements Vehicle{
+class CarVehicle implements Vehicle {
     private speed: number;
 
-    constructor(){
-        this.speed= 0;
+    constructor() {
+        this.speed = 0;
     }
 
-    start(): void{
-        this.speed= 60;
+    start(): void {
+        this.speed = 60;
         console.log("Car started.");
     }
-    stop(): void{
-        this.speed= 0;
+    stop(): void {
+        this.speed = 0;
         console.log("Car stopped.");
     }
-    getSpeed(): number{
+    getSpeed(): number {
         return this.speed;
     }
 }
-const myCarVehicle= new CarVehicle();
+const myCarVehicle = new CarVehicle();
 myCarVehicle.start();
 console.log(`Current Speed: ${myCarVehicle.getSpeed()}`); // Output: "Current Speed: 60"
 myCarVehicle.stop();
@@ -925,21 +925,21 @@ console.log(`Current Speed: ${myCarVehicle.getSpeed()}`); // Output: "Current Sp
 // Module4 --> Decorators in TypeScript
 
 // Class Decorator- a class decorator is a special type of decorator that can be applied to a class declaration. It allows you to modify or enhance the behavior of the class in some way. A class decorator is a function that takes the constructor of the class as an argument and can return a new constructor or modify the existing one.
-function Logger(constructor: Function){
+function Logger(constructor: Function) {
     console.log(`Class Decorator: ${constructor.name} has been created.`);
 }
 @Logger // this means the Logger decorator will be applied to the PersonDecorated class, and it will log a message when the class is created.
-class PersonDecorated{
-    constructor(public name: string, public age: number){}
+class PersonDecorated {
+    constructor(public name: string, public age: number) { }
 }
-const personDecorated= new PersonDecorated("Salah", 27);
+const personDecorated = new PersonDecorated("Salah", 27);
 console.log(`Person Decorated: Name: ${personDecorated.name}, Age: ${personDecorated.age}`);
 // Method Decorator
-function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescriptor){
-    const originalMethod= descriptor.value;
-    descriptor.value= function(...args: any[]){
+function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+    const originalMethod = descriptor.value;
+    descriptor.value = function (...args: any[]) {
         console.log(`Method Decorator: Calling ${propertyKey} with arguments: ${JSON.stringify(args)}`);
-        const result= originalMethod.apply(this, args);
+        const result = originalMethod.apply(this, args);
         console.log(`Method Decorator: ${propertyKey} returned: ${JSON.stringify(result)}`);
         return result;
     }
@@ -965,10 +965,10 @@ console.log(`Concatenation of string and number: ${add("The answer is: ", 42)}`)
 
 // Type Guard using in operator
 
-type normalUser= {
+type normalUser = {
     name: String;
 }
-type adminUser= {
+type adminUser = {
     name: String;
     role: String;
 }
@@ -985,3 +985,247 @@ const adminUser1: adminUser = { name: "Bob", role: "Administrator" };
 
 console.log(getUserInfo(normalUser1)); // Output: "Normal User: Name: Alice"
 console.log(getUserInfo(adminUser1)); // Output: "Admin User: Name: Bob, Role: Administrator"
+
+//3-4: Type guard using instance of
+
+class AnimalInstance {
+    name: string;
+    species: string;
+    constructor(name: string, species: string) {
+        this.name = name;
+        this.species = species;
+    }
+    makeSound(): void {
+        console.log(`${this.name} makes a sound.`);
+    }
+}
+class Dog extends AnimalInstance {
+    constructor(name: string, species: string) {
+        super(name, species);
+    }
+    makeBark(): void {
+        console.log(`${this.name} says: Woof!`);
+    }
+}
+class Cat extends AnimalInstance {
+    constructor(name: string, species: string) {
+        super(name, species);
+    }
+    makeMeow(): void {
+        console.log(`${this.name} says: Meow!`);
+    }
+}
+
+const animal1 = new Dog("Buddy", "Dog");
+const animal2: AnimalInstance = new Cat("Whiskers", "Cat");
+
+
+const isDog = (animal: AnimalInstance): animal is Dog => {
+    return animal instanceof Dog;
+}
+const isCat = (animal: AnimalInstance): animal is Cat => {
+    return animal instanceof Cat;
+}
+
+const makeAnimalSound = (animal: AnimalInstance): void => {
+    if (isDog(animal)) {
+        animal.makeBark();
+    } else if (isCat(animal)) {
+        animal.makeMeow();
+    } else {
+        animal.makeSound();
+    }
+}
+makeAnimalSound(animal1); // Output: "Buddy says: Woof!"
+makeAnimalSound(animal2); // Output: "Whiskers says: Meow!"
+
+
+// Getters and Setters
+
+class PersonWithGetSet {
+    private _name: string;
+    private _age: number;
+
+    constructor(name: string, age: number) {
+        this._name = name;
+        this._age = age;
+    }
+
+    get name(): string {
+        return this._name;
+    }
+    set name(newName: string) {
+        if (newName.length > 0) {
+            this._name = newName;
+        } else {
+            console.log("Name cannot be empty.");
+        }
+    }
+
+    get age(): number {
+        return this._age;
+    }
+    set age(newAge: number) {
+        if (newAge > 0) {
+            this._age = newAge;
+        } else {
+            console.log("Age must be a positive number.");
+        }
+    }
+}
+
+const personGetSet = new PersonWithGetSet("Salah", 27);
+console.log(`Person Get/Set: Name: ${personGetSet.name}, Age: ${personGetSet.age}`); // Output: "Person Get/Set: Name: Salah, Age: 27"
+personGetSet.name = "Ali"; // Update name using setter
+personGetSet.age = 28; // Update age using setter
+console.log(`Updated Person Get/Set: Name: ${personGetSet.name}, Age: ${personGetSet.age}`); // Output: "Updated Person Get/Set: Name: Ali, Age: 28"
+
+// Static Properties and Methods
+
+class MathUtils {
+    static PI: number = 3.14159;
+
+    static calculateCircleArea(radius: number): number {
+        return MathUtils.PI * radius * radius;
+    }
+}
+
+console.log(`Value of PI: ${MathUtils.PI}`); // Output: "Value of PI: 3.14159"
+console.log(`Area of Circle with radius 5: ${MathUtils.calculateCircleArea(5)}`); // Output: "Area of Circle with radius 5: 78.53975"   
+
+class Counter{
+    private static count: number =0;
+    static increment(): void{
+        Counter.count++;
+        console.log(`Current Count: ${Counter.count}`);
+    }
+    static decrement(): void{
+        Counter.count--;
+        console.log(`Current Count: ${Counter.count}`);
+    }
+}
+Counter.increment(); // Output: "Current Count: 1"
+Counter.increment(); // Output: "Current Count: 2"
+Counter.decrement(); // Output: "Current Count: 1"
+Counter.decrement(); // Output: "Current Count: 0"
+
+
+// 04 philler of OOP in TypeScript
+//1. Inheritance
+//2. Polymorphism
+//3. Abstract Classes and Methods
+//4. Encapsulation
+
+
+
+// polymorphism- polymorphism is a fundamental concept in object-oriented programming that allows objects of different classes to be treated as objects of a common superclass. It enables
+// a single interface to represent different underlying forms (data types). In TypeScript, polymorphism can be achieved through method overriding, where a subclass provides a specific implementation of a method that is already defined in its superclass. This allows for dynamic method dispatch, where the appropriate method is called based on the actual type of the object at runtime, rather than the type of the reference variable.
+
+
+class ShapePoly{
+    getArea(): number{
+        return 0; // Default implementation, can be overridden by derived classes
+    }
+}
+class circlePoly extends ShapePoly{
+    radious : number;
+    constructor(radious : number){
+        super();
+        this.radious = radious;
+    }
+    getArea(): number {
+        const area = Math.PI * this.radious * this.radious;
+        return area;
+    }
+
+}
+class rectanglePoly extends ShapePoly{
+    width: number;
+    height: number;
+    constructor(width: number, height: number){
+        super();
+        this.width = width;
+        this.height = height;
+    }
+    getArea(): number {
+        const area = this.width * this.height;
+        return area;
+    }
+}
+const getAreaOfShape =(shape: ShapePoly): void =>{
+    console.log(`Area of the ${shape.constructor.name}: ${shape.getArea()}`);
+}
+const shape1= new ShapePoly();
+const circle1 = new circlePoly(5);
+const rectangle1 = new rectanglePoly(10, 5);
+
+getAreaOfShape(shape1); // Output: "Area of the Shape: 0"
+getAreaOfShape(circle1); // Output: "Area of the Circle: 78.53981633974483"
+getAreaOfShape(rectangle1); // Output: "Area of the Rectangle: 50"
+
+
+// Abstract Classes and Methods- abstract class cannot be instantiated and can contain abstract methods that must be implemented by derived classes
+abstract class EmployeeAbs {
+    constructor(public name: string, public id: number) { }
+    abstract calculateSalary(): number; // abstract method, must be implemented by derived classes
+    displayInfo(): void {
+        console.log(`Employee Info: Name: ${this.name}, ID: ${this.id}`);
+    }
+}
+class FullTimeEmployee extends EmployeeAbs {
+    constructor(name: string, id: number, private monthlySalary: number) {
+        super(name, id);
+    }
+    calculateSalary(): number {
+        return this.monthlySalary;
+    }
+}
+class PartTimeEmployee extends EmployeeAbs {
+    constructor(name: string, id: number, private hourlyRate: number, private hoursWorked: number) {
+        super(name, id);
+    }
+    calculateSalary(): number {
+        return this.hourlyRate * this.hoursWorked;
+    }
+}
+const fullTimeEmp = new FullTimeEmployee("Alice", 101, 5000);
+const partTimeEmp = new PartTimeEmployee("Bob", 102, 20, 80);
+
+fullTimeEmp.displayInfo(); // Output: "Employee Info: Name: Alice, ID: 101"
+console.log(`Full-Time Employee Salary: ${fullTimeEmp.calculateSalary()}`); // Output: "Full-Time Employee Salary: 5000"
+
+partTimeEmp.displayInfo(); // Output: "Employee Info: Name: Bob, ID: 102"
+console.log(`Part-Time Employee Salary: ${partTimeEmp.calculateSalary()}`); // Output: "Part-Time Employee Salary: 1600"   
+
+//interfaces in OOP- interface defines a contract that classes can implement, specifying the structure and behavior that the implementing class must follow. It allows for defining the shape of an object, including properties and methods, without providing implementation details. Interfaces are used to achieve abstraction and polymorphism in TypeScript, enabling different classes to implement the same interface while providing their own specific implementations.
+
+
+//idea
+interface vehicleInterface {
+    startEngine() : void;
+    stopEngine() : void;
+    getSpeed() : number;
+}
+
+class CarInterface implements vehicleInterface{
+    startEngine(): void {
+        console.log("Car engine started.");
+    }
+    stopEngine(): void {
+        console.log("Car engine stopped.");
+    }
+    getSpeed(): number {
+        return 60; // Example speed
+    }
+
+    testMethod(): void {
+        console.log("This is a test method in CarInterface class.");
+    }
+}
+
+const myCarInterface = new CarInterface();
+myCarInterface.startEngine(); // Output: "Car engine started."
+console.log(`Current Speed: ${myCarInterface.getSpeed()}`); // Output: "Current Speed: 60"
+myCarInterface.stopEngine(); // Output: "Car engine stopped."
+myCarInterface.testMethod(); // Output: "This is a test method in CarInterface class."
+
