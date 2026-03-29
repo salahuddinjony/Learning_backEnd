@@ -1,0 +1,5147 @@
+[
+  {
+    "_id": 1,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim1@gmail.com",
+    "phone": "01710000001",
+    "gender": "female",
+    "birthday": "2001-02-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "C#",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Rahim Ahmed",
+      "year": 2001
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "1 Main Street"
+    },
+    "salary": 31000
+  },
+  {
+    "_id": 2,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim2@gmail.com",
+    "phone": "01710000002",
+    "gender": "male",
+    "birthday": "2002-03-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "C#",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "advanced",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Karim Hasan",
+      "year": 2002
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "2 Main Street"
+    },
+    "salary": 32000
+  },
+  {
+    "_id": 3,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat3@gmail.com",
+    "phone": "01710000003",
+    "gender": "female",
+    "birthday": "2003-04-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Nusrat Jahan",
+      "year": 2003
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "3 Main Street"
+    },
+    "salary": 33000
+  },
+  {
+    "_id": 4,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir4@gmail.com",
+    "phone": "01710000004",
+    "gender": "male",
+    "birthday": "2004-05-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Tanvir Hossain",
+      "year": 2004
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "4 Main Street"
+    },
+    "salary": 34000
+  },
+  {
+    "_id": 5,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim5@gmail.com",
+    "phone": "01710000005",
+    "gender": "female",
+    "birthday": "2005-06-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Mim Akter",
+      "year": 2005
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "5 Main Street"
+    },
+    "salary": 35000
+  },
+  {
+    "_id": 6,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim6@gmail.com",
+    "phone": "01710000006",
+    "gender": "male",
+    "birthday": "2006-07-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Fahim Rahman",
+      "year": 2006
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "6 Main Street"
+    },
+    "salary": 36000
+  },
+  {
+    "_id": 7,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat7@gmail.com",
+    "phone": "01710000007",
+    "gender": "female",
+    "birthday": "2007-08-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "TypeScript",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Jannat Islam",
+      "year": 2007
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "7 Main Street"
+    },
+    "salary": 37000
+  },
+  {
+    "_id": 8,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif8@gmail.com",
+    "phone": "01710000008",
+    "gender": "male",
+    "birthday": "2008-09-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Arif Khan",
+      "year": 2008
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "8 Main Street"
+    },
+    "salary": 38000
+  },
+  {
+    "_id": 9,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia9@gmail.com",
+    "phone": "01710000009",
+    "gender": "female",
+    "birthday": "2009-01-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Sadia Noor",
+      "year": 2009
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "9 Main Street"
+    },
+    "salary": 39000
+  },
+  {
+    "_id": 10,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah10@gmail.com",
+    "phone": "01710000010",
+    "gender": "male",
+    "birthday": "2000-02-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Salah Uddin",
+      "year": 2010
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "10 Main Street"
+    },
+    "salary": 40000
+  },
+  {
+    "_id": 11,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim11@gmail.com",
+    "phone": "01710000011",
+    "gender": "female",
+    "birthday": "2001-03-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "intermediate",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Rahim Ahmed",
+      "year": 2011
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "11 Main Street"
+    },
+    "salary": 41000
+  },
+  {
+    "_id": 12,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim12@gmail.com",
+    "phone": "01710000012",
+    "gender": "male",
+    "birthday": "2002-04-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Karim Hasan",
+      "year": 2012
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "12 Main Street"
+    },
+    "salary": 42000
+  },
+  {
+    "_id": 13,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat13@gmail.com",
+    "phone": "01710000013",
+    "gender": "female",
+    "birthday": "2003-05-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Go",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Nusrat Jahan",
+      "year": 2013
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "13 Main Street"
+    },
+    "salary": 43000
+  },
+  {
+    "_id": 14,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir14@gmail.com",
+    "phone": "01710000014",
+    "gender": "male",
+    "birthday": "2004-06-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Go",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "level": "advanced",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Tanvir Hossain",
+      "year": 2014
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "14 Main Street"
+    },
+    "salary": 44000
+  },
+  {
+    "_id": 15,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim15@gmail.com",
+    "phone": "01710000015",
+    "gender": "female",
+    "birthday": "2005-07-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "Swift",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Mim Akter",
+      "year": 2015
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "15 Main Street"
+    },
+    "salary": 45000
+  },
+  {
+    "_id": 16,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim16@gmail.com",
+    "phone": "01710000016",
+    "gender": "male",
+    "birthday": "2006-08-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Swift",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Fahim Rahman",
+      "year": 2016
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "16 Main Street"
+    },
+    "salary": 46000
+  },
+  {
+    "_id": 17,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat17@gmail.com",
+    "phone": "01710000017",
+    "gender": "female",
+    "birthday": "2007-09-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Jannat Islam",
+      "year": 2017
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "17 Main Street"
+    },
+    "salary": 47000
+  },
+  {
+    "_id": 18,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif18@gmail.com",
+    "phone": "01710000018",
+    "gender": "male",
+    "birthday": "2008-01-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Arif Khan",
+      "year": 2018
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "18 Main Street"
+    },
+    "salary": 48000
+  },
+  {
+    "_id": 19,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia19@gmail.com",
+    "phone": "01710000019",
+    "gender": "female",
+    "birthday": "2009-02-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Sadia Noor",
+      "year": 2019
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "19 Main Street"
+    },
+    "salary": 49000
+  },
+  {
+    "_id": 20,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah20@gmail.com",
+    "phone": "01710000020",
+    "gender": "male",
+    "birthday": "2000-03-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Python",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Salah Uddin",
+      "year": 2000
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "20 Main Street"
+    },
+    "salary": 50000
+  },
+  {
+    "_id": 21,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim21@gmail.com",
+    "phone": "01710000021",
+    "gender": "female",
+    "birthday": "2001-04-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Rahim Ahmed",
+      "year": 2001
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "21 Main Street"
+    },
+    "salary": 51000
+  },
+  {
+    "_id": 22,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim22@gmail.com",
+    "phone": "01710000022",
+    "gender": "male",
+    "birthday": "2002-05-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "C#",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Karim Hasan",
+      "year": 2002
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "22 Main Street"
+    },
+    "salary": 52000
+  },
+  {
+    "_id": 23,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat23@gmail.com",
+    "phone": "01710000023",
+    "gender": "female",
+    "birthday": "2003-06-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Nusrat Jahan",
+      "year": 2003
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "23 Main Street"
+    },
+    "salary": 53000
+  },
+  {
+    "_id": 24,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir24@gmail.com",
+    "phone": "01710000024",
+    "gender": "male",
+    "birthday": "2004-07-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Tanvir Hossain",
+      "year": 2004
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "24 Main Street"
+    },
+    "salary": 54000
+  },
+  {
+    "_id": 25,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim25@gmail.com",
+    "phone": "01710000025",
+    "gender": "female",
+    "birthday": "2005-08-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Swift",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Mim Akter",
+      "year": 2005
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "25 Main Street"
+    },
+    "salary": 55000
+  },
+  {
+    "_id": 26,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim26@gmail.com",
+    "phone": "01710000026",
+    "gender": "male",
+    "birthday": "2006-09-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Swift",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "advanced",
+        "isLearning": true
+      },
+      {
+        "name": "TypeScript",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Fahim Rahman",
+      "year": 2006
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "26 Main Street"
+    },
+    "salary": 56000
+  },
+  {
+    "_id": 27,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat27@gmail.com",
+    "phone": "01710000027",
+    "gender": "female",
+    "birthday": "2007-01-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "TypeScript",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Jannat Islam",
+      "year": 2007
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "27 Main Street"
+    },
+    "salary": 57000
+  },
+  {
+    "_id": 28,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif28@gmail.com",
+    "phone": "01710000028",
+    "gender": "male",
+    "birthday": "2008-02-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "TypeScript",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Arif Khan",
+      "year": 2008
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "28 Main Street"
+    },
+    "salary": 58000
+  },
+  {
+    "_id": 29,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia29@gmail.com",
+    "phone": "01710000029",
+    "gender": "female",
+    "birthday": "2009-03-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Python",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Sadia Noor",
+      "year": 2009
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "29 Main Street"
+    },
+    "salary": 59000
+  },
+  {
+    "_id": 30,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah30@gmail.com",
+    "phone": "01710000030",
+    "gender": "male",
+    "birthday": "2000-04-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Python",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "advanced",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Salah Uddin",
+      "year": 2010
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "30 Main Street"
+    },
+    "salary": 60000
+  },
+  {
+    "_id": 31,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim31@gmail.com",
+    "phone": "01710000031",
+    "gender": "female",
+    "birthday": "2001-05-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Rahim Ahmed",
+      "year": 2011
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "31 Main Street"
+    },
+    "salary": 61000
+  },
+  {
+    "_id": 32,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim32@gmail.com",
+    "phone": "01710000032",
+    "gender": "male",
+    "birthday": "2002-06-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "Go",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Karim Hasan",
+      "year": 2012
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "32 Main Street"
+    },
+    "salary": 62000
+  },
+  {
+    "_id": 33,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat33@gmail.com",
+    "phone": "01710000033",
+    "gender": "female",
+    "birthday": "2003-07-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Nusrat Jahan",
+      "year": 2013
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "33 Main Street"
+    },
+    "salary": 63000
+  },
+  {
+    "_id": 34,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir34@gmail.com",
+    "phone": "01710000034",
+    "gender": "male",
+    "birthday": "2004-08-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Tanvir Hossain",
+      "year": 2014
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "34 Main Street"
+    },
+    "salary": 64000
+  },
+  {
+    "_id": 35,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim35@gmail.com",
+    "phone": "01710000035",
+    "gender": "female",
+    "birthday": "2005-09-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Mim Akter",
+      "year": 2015
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "35 Main Street"
+    },
+    "salary": 65000
+  },
+  {
+    "_id": 36,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim36@gmail.com",
+    "phone": "01710000036",
+    "gender": "male",
+    "birthday": "2006-01-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Swift",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Fahim Rahman",
+      "year": 2016
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "36 Main Street"
+    },
+    "salary": 66000
+  },
+  {
+    "_id": 37,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat37@gmail.com",
+    "phone": "01710000037",
+    "gender": "female",
+    "birthday": "2007-02-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Jannat Islam",
+      "year": 2017
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "37 Main Street"
+    },
+    "salary": 67000
+  },
+  {
+    "_id": 38,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif38@gmail.com",
+    "phone": "01710000038",
+    "gender": "male",
+    "birthday": "2008-03-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "advanced",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Arif Khan",
+      "year": 2018
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "38 Main Street"
+    },
+    "salary": 68000
+  },
+  {
+    "_id": 39,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia39@gmail.com",
+    "phone": "01710000039",
+    "gender": "female",
+    "birthday": "2009-04-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "Python",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Sadia Noor",
+      "year": 2019
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "39 Main Street"
+    },
+    "salary": 69000
+  },
+  {
+    "_id": 40,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah40@gmail.com",
+    "phone": "01710000040",
+    "gender": "male",
+    "birthday": "2000-05-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Python",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Salah Uddin",
+      "year": 2000
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "40 Main Street"
+    },
+    "salary": 70000
+  },
+  {
+    "_id": 41,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim41@gmail.com",
+    "phone": "01710000041",
+    "gender": "female",
+    "birthday": "2001-06-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Rahim Ahmed",
+      "year": 2001
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "41 Main Street"
+    },
+    "salary": 71000
+  },
+  {
+    "_id": 42,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim42@gmail.com",
+    "phone": "01710000042",
+    "gender": "male",
+    "birthday": "2002-07-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Karim Hasan",
+      "year": 2002
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "42 Main Street"
+    },
+    "salary": 72000
+  },
+  {
+    "_id": 43,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat43@gmail.com",
+    "phone": "01710000043",
+    "gender": "female",
+    "birthday": "2003-08-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Nusrat Jahan",
+      "year": 2003
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "43 Main Street"
+    },
+    "salary": 73000
+  },
+  {
+    "_id": 44,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir44@gmail.com",
+    "phone": "01710000044",
+    "gender": "male",
+    "birthday": "2004-09-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Tanvir Hossain",
+      "year": 2004
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "44 Main Street"
+    },
+    "salary": 74000
+  },
+  {
+    "_id": 45,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim45@gmail.com",
+    "phone": "01710000045",
+    "gender": "female",
+    "birthday": "2005-01-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Mim Akter",
+      "year": 2005
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "45 Main Street"
+    },
+    "salary": 75000
+  },
+  {
+    "_id": 46,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim46@gmail.com",
+    "phone": "01710000046",
+    "gender": "male",
+    "birthday": "2006-02-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Swift",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "advanced",
+        "isLearning": true
+      },
+      {
+        "name": "TypeScript",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Fahim Rahman",
+      "year": 2006
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "46 Main Street"
+    },
+    "salary": 76000
+  },
+  {
+    "_id": 47,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat47@gmail.com",
+    "phone": "01710000047",
+    "gender": "female",
+    "birthday": "2007-03-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Jannat Islam",
+      "year": 2007
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "47 Main Street"
+    },
+    "salary": 77000
+  },
+  {
+    "_id": 48,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif48@gmail.com",
+    "phone": "01710000048",
+    "gender": "male",
+    "birthday": "2008-04-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "TypeScript",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "Python",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Arif Khan",
+      "year": 2008
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "48 Main Street"
+    },
+    "salary": 78000
+  },
+  {
+    "_id": 49,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia49@gmail.com",
+    "phone": "01710000049",
+    "gender": "female",
+    "birthday": "2009-05-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Python",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Sadia Noor",
+      "year": 2009
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "49 Main Street"
+    },
+    "salary": 79000
+  },
+  {
+    "_id": 50,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah50@gmail.com",
+    "phone": "01710000050",
+    "gender": "male",
+    "birthday": "2000-06-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Python",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "advanced",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Salah Uddin",
+      "year": 2010
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "50 Main Street"
+    },
+    "salary": 80000
+  },
+  {
+    "_id": 51,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim51@gmail.com",
+    "phone": "01710000051",
+    "gender": "female",
+    "birthday": "2001-07-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "intermediate",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Rahim Ahmed",
+      "year": 2011
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "51 Main Street"
+    },
+    "salary": 81000
+  },
+  {
+    "_id": 52,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim52@gmail.com",
+    "phone": "01710000052",
+    "gender": "male",
+    "birthday": "2002-08-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Karim Hasan",
+      "year": 2012
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "52 Main Street"
+    },
+    "salary": 82000
+  },
+  {
+    "_id": 53,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat53@gmail.com",
+    "phone": "01710000053",
+    "gender": "female",
+    "birthday": "2003-09-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Nusrat Jahan",
+      "year": 2013
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "53 Main Street"
+    },
+    "salary": 83000
+  },
+  {
+    "_id": 54,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir54@gmail.com",
+    "phone": "01710000054",
+    "gender": "male",
+    "birthday": "2004-01-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Tanvir Hossain",
+      "year": 2014
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "54 Main Street"
+    },
+    "salary": 84000
+  },
+  {
+    "_id": 55,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim55@gmail.com",
+    "phone": "01710000055",
+    "gender": "female",
+    "birthday": "2005-02-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "Swift",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Mim Akter",
+      "year": 2015
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "55 Main Street"
+    },
+    "salary": 85000
+  },
+  {
+    "_id": 56,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim56@gmail.com",
+    "phone": "01710000056",
+    "gender": "male",
+    "birthday": "2006-03-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Swift",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Fahim Rahman",
+      "year": 2016
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "56 Main Street"
+    },
+    "salary": 86000
+  },
+  {
+    "_id": 57,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat57@gmail.com",
+    "phone": "01710000057",
+    "gender": "female",
+    "birthday": "2007-04-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Jannat Islam",
+      "year": 2017
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "57 Main Street"
+    },
+    "salary": 87000
+  },
+  {
+    "_id": 58,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif58@gmail.com",
+    "phone": "01710000058",
+    "gender": "male",
+    "birthday": "2008-05-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Arif Khan",
+      "year": 2018
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "58 Main Street"
+    },
+    "salary": 88000
+  },
+  {
+    "_id": 59,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia59@gmail.com",
+    "phone": "01710000059",
+    "gender": "female",
+    "birthday": "2009-06-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Sadia Noor",
+      "year": 2019
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "59 Main Street"
+    },
+    "salary": 89000
+  },
+  {
+    "_id": 60,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah60@gmail.com",
+    "phone": "01710000060",
+    "gender": "male",
+    "birthday": "2000-07-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Salah Uddin",
+      "year": 2000
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "60 Main Street"
+    },
+    "salary": 90000
+  },
+  {
+    "_id": 61,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim61@gmail.com",
+    "phone": "01710000061",
+    "gender": "female",
+    "birthday": "2001-08-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Rahim Ahmed",
+      "year": 2001
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "61 Main Street"
+    },
+    "salary": 91000
+  },
+  {
+    "_id": 62,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim62@gmail.com",
+    "phone": "01710000062",
+    "gender": "male",
+    "birthday": "2002-09-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Karim Hasan",
+      "year": 2002
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "62 Main Street"
+    },
+    "salary": 92000
+  },
+  {
+    "_id": 63,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat63@gmail.com",
+    "phone": "01710000063",
+    "gender": "female",
+    "birthday": "2003-01-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Nusrat Jahan",
+      "year": 2003
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "63 Main Street"
+    },
+    "salary": 93000
+  },
+  {
+    "_id": 64,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir64@gmail.com",
+    "phone": "01710000064",
+    "gender": "male",
+    "birthday": "2004-02-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Tanvir Hossain",
+      "year": 2004
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "64 Main Street"
+    },
+    "salary": 94000
+  },
+  {
+    "_id": 65,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim65@gmail.com",
+    "phone": "01710000065",
+    "gender": "female",
+    "birthday": "2005-03-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Mim Akter",
+      "year": 2005
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "65 Main Street"
+    },
+    "salary": 95000
+  },
+  {
+    "_id": 66,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim66@gmail.com",
+    "phone": "01710000066",
+    "gender": "male",
+    "birthday": "2006-04-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Swift",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "advanced",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Fahim Rahman",
+      "year": 2006
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "66 Main Street"
+    },
+    "salary": 96000
+  },
+  {
+    "_id": 67,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat67@gmail.com",
+    "phone": "01710000067",
+    "gender": "female",
+    "birthday": "2007-05-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Jannat Islam",
+      "year": 2007
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "67 Main Street"
+    },
+    "salary": 97000
+  },
+  {
+    "_id": 68,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif68@gmail.com",
+    "phone": "01710000068",
+    "gender": "male",
+    "birthday": "2008-06-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "TypeScript",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "Python",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Arif Khan",
+      "year": 2008
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "68 Main Street"
+    },
+    "salary": 98000
+  },
+  {
+    "_id": 69,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia69@gmail.com",
+    "phone": "01710000069",
+    "gender": "female",
+    "birthday": "2009-07-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Sadia Noor",
+      "year": 2009
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "69 Main Street"
+    },
+    "salary": 99000
+  },
+  {
+    "_id": 70,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah70@gmail.com",
+    "phone": "01710000070",
+    "gender": "male",
+    "birthday": "2000-08-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Salah Uddin",
+      "year": 2010
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "70 Main Street"
+    },
+    "salary": 100000
+  },
+  {
+    "_id": 71,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim71@gmail.com",
+    "phone": "01710000071",
+    "gender": "female",
+    "birthday": "2001-09-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Rahim Ahmed",
+      "year": 2011
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "71 Main Street"
+    },
+    "salary": 101000
+  },
+  {
+    "_id": 72,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim72@gmail.com",
+    "phone": "01710000072",
+    "gender": "male",
+    "birthday": "2002-01-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Karim Hasan",
+      "year": 2012
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "72 Main Street"
+    },
+    "salary": 102000
+  },
+  {
+    "_id": 73,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat73@gmail.com",
+    "phone": "01710000073",
+    "gender": "female",
+    "birthday": "2003-02-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Nusrat Jahan",
+      "year": 2013
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "73 Main Street"
+    },
+    "salary": 103000
+  },
+  {
+    "_id": 74,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir74@gmail.com",
+    "phone": "01710000074",
+    "gender": "male",
+    "birthday": "2004-03-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Tanvir Hossain",
+      "year": 2014
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "74 Main Street"
+    },
+    "salary": 104000
+  },
+  {
+    "_id": 75,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim75@gmail.com",
+    "phone": "01710000075",
+    "gender": "female",
+    "birthday": "2005-04-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Mim Akter",
+      "year": 2015
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "75 Main Street"
+    },
+    "salary": 105000
+  },
+  {
+    "_id": 76,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim76@gmail.com",
+    "phone": "01710000076",
+    "gender": "male",
+    "birthday": "2006-05-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Fahim Rahman",
+      "year": 2016
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "76 Main Street"
+    },
+    "salary": 106000
+  },
+  {
+    "_id": 77,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat77@gmail.com",
+    "phone": "01710000077",
+    "gender": "female",
+    "birthday": "2007-06-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Jannat Islam",
+      "year": 2017
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "77 Main Street"
+    },
+    "salary": 107000
+  },
+  {
+    "_id": 78,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif78@gmail.com",
+    "phone": "01710000078",
+    "gender": "male",
+    "birthday": "2008-07-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "advanced",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Arif Khan",
+      "year": 2018
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "78 Main Street"
+    },
+    "salary": 108000
+  },
+  {
+    "_id": 79,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia79@gmail.com",
+    "phone": "01710000079",
+    "gender": "female",
+    "birthday": "2009-08-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Sadia Noor",
+      "year": 2019
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "79 Main Street"
+    },
+    "salary": 109000
+  },
+  {
+    "_id": 80,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah80@gmail.com",
+    "phone": "01710000080",
+    "gender": "male",
+    "birthday": "2000-09-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Python",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "advanced",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Salah Uddin",
+      "year": 2000
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "80 Main Street"
+    },
+    "salary": 110000
+  },
+  {
+    "_id": 81,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim81@gmail.com",
+    "phone": "01710000081",
+    "gender": "female",
+    "birthday": "2001-01-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Rahim Ahmed",
+      "year": 2001
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "81 Main Street"
+    },
+    "salary": 111000
+  },
+  {
+    "_id": 82,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim82@gmail.com",
+    "phone": "01710000082",
+    "gender": "male",
+    "birthday": "2002-02-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "C#",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "advanced",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Karim Hasan",
+      "year": 2002
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "82 Main Street"
+    },
+    "salary": 112000
+  },
+  {
+    "_id": 83,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat83@gmail.com",
+    "phone": "01710000083",
+    "gender": "female",
+    "birthday": "2003-03-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Nusrat Jahan",
+      "year": 2003
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "83 Main Street"
+    },
+    "salary": 113000
+  },
+  {
+    "_id": 84,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir84@gmail.com",
+    "phone": "01710000084",
+    "gender": "male",
+    "birthday": "2004-04-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Go",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "Swift",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Tanvir Hossain",
+      "year": 2004
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "84 Main Street"
+    },
+    "salary": 114000
+  },
+  {
+    "_id": 85,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim85@gmail.com",
+    "phone": "01710000085",
+    "gender": "female",
+    "birthday": "2005-05-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "PHP",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Mim Akter",
+      "year": 2005
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "85 Main Street"
+    },
+    "salary": 115000
+  },
+  {
+    "_id": 86,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim86@gmail.com",
+    "phone": "01710000086",
+    "gender": "male",
+    "birthday": "2006-06-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Fahim Rahman",
+      "year": 2006
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "86 Main Street"
+    },
+    "salary": 116000
+  },
+  {
+    "_id": 87,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat87@gmail.com",
+    "phone": "01710000087",
+    "gender": "female",
+    "birthday": "2007-07-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Kotlin",
+        "level": "intermediate",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Jannat Islam",
+      "year": 2007
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "87 Main Street"
+    },
+    "salary": 117000
+  },
+  {
+    "_id": 88,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif88@gmail.com",
+    "phone": "01710000088",
+    "gender": "male",
+    "birthday": "2008-08-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Arif Khan",
+      "year": 2008
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "88 Main Street"
+    },
+    "salary": 118000
+  },
+  {
+    "_id": 89,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia89@gmail.com",
+    "phone": "01710000089",
+    "gender": "female",
+    "birthday": "2009-09-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Sadia Noor",
+      "year": 2009
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "89 Main Street"
+    },
+    "salary": 119000
+  },
+  {
+    "_id": 90,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah90@gmail.com",
+    "phone": "01710000090",
+    "gender": "male",
+    "birthday": "2000-01-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Salah Uddin",
+      "year": 2010
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "90 Main Street"
+    },
+    "salary": 120000
+  },
+  {
+    "_id": 91,
+    "name": {
+      "firstName": "Rahim",
+      "lastName": "Ahmed"
+    },
+    "email": "rahim91@gmail.com",
+    "phone": "01710000091",
+    "gender": "female",
+    "birthday": "2001-02-15",
+    "age": 21,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Python",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Java",
+        "level": "intermediate",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "level": "advanced",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Rahim Ahmed",
+      "year": 2011
+    },
+    "occupations": {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "yearsOfExperience": 2
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "India",
+      "postalCode": "1001",
+      "streetAddress": "91 Main Street"
+    },
+    "salary": 121000
+  },
+  {
+    "_id": 92,
+    "name": {
+      "firstName": "Karim",
+      "lastName": "Hasan"
+    },
+    "email": "karim92@gmail.com",
+    "phone": "01710000092",
+    "gender": "male",
+    "birthday": "2002-03-15",
+    "age": 22,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Java",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "C#",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Karim Hasan",
+      "year": 2012
+    },
+    "occupations": {
+      "title": "Product Manager",
+      "company": "Amazon",
+      "yearsOfExperience": 3
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Pakistan",
+      "postalCode": "1002",
+      "streetAddress": "92 Main Street"
+    },
+    "salary": 122000
+  },
+  {
+    "_id": 93,
+    "name": {
+      "firstName": "Nusrat",
+      "lastName": "Jahan"
+    },
+    "email": "nusrat93@gmail.com",
+    "phone": "01710000093",
+    "gender": "female",
+    "birthday": "2003-04-15",
+    "age": 23,
+    "role": "user",
+    "skills": [
+      {
+        "name": "C#",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Nusrat Jahan",
+      "year": 2013
+    },
+    "occupations": {
+      "title": "Designer",
+      "company": "Microsoft",
+      "yearsOfExperience": 4
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Nepal",
+      "postalCode": "1003",
+      "streetAddress": "93 Main Street"
+    },
+    "salary": 123000
+  },
+  {
+    "_id": 94,
+    "name": {
+      "firstName": "Tanvir",
+      "lastName": "Hossain"
+    },
+    "email": "tanvir94@gmail.com",
+    "phone": "01710000094",
+    "gender": "male",
+    "birthday": "2004-05-15",
+    "age": 24,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Ruby",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "Go",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Tanvir Hossain",
+      "year": 2014
+    },
+    "occupations": {
+      "title": "Marketing Specialist",
+      "company": "Apple",
+      "yearsOfExperience": 5
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Sri Lanka",
+      "postalCode": "1004",
+      "streetAddress": "94 Main Street"
+    },
+    "salary": 124000
+  },
+  {
+    "_id": 95,
+    "name": {
+      "firstName": "Mim",
+      "lastName": "Akter"
+    },
+    "email": "mim95@gmail.com",
+    "phone": "01710000095",
+    "gender": "female",
+    "birthday": "2005-06-15",
+    "age": 25,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Go",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Moby",
+      "author": "Mim Akter",
+      "year": 2015
+    },
+    "occupations": {
+      "title": "Sales Representative",
+      "company": "Netflix",
+      "yearsOfExperience": 6
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Bhutan",
+      "postalCode": "1005",
+      "streetAddress": "95 Main Street"
+    },
+    "salary": 125000
+  },
+  {
+    "_id": 96,
+    "name": {
+      "firstName": "Fahim",
+      "lastName": "Rahman"
+    },
+    "email": "fahim96@gmail.com",
+    "phone": "01710000096",
+    "gender": "male",
+    "birthday": "2006-07-15",
+    "age": 26,
+    "role": "user",
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Swift",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Great Gatsby",
+      "author": "Fahim Rahman",
+      "year": 2016
+    },
+    "occupations": {
+      "title": "HR Manager",
+      "company": "Tesla",
+      "yearsOfExperience": 7
+    },
+    "friends": [
+      "Alice",
+      "Bob"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "Maldives",
+      "postalCode": "1006",
+      "streetAddress": "96 Main Street"
+    },
+    "salary": 126000
+  },
+  {
+    "_id": 97,
+    "name": {
+      "firstName": "Jannat",
+      "lastName": "Islam"
+    },
+    "email": "jannat97@gmail.com",
+    "phone": "01710000097",
+    "gender": "female",
+    "birthday": "2007-08-15",
+    "age": 27,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "beginner",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "To Kill a Mockingbird",
+      "author": "Jannat Islam",
+      "year": 2017
+    },
+    "occupations": {
+      "title": "Financial Analyst",
+      "company": "SpaceX",
+      "yearsOfExperience": 8
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Afghanistan",
+      "postalCode": "1007",
+      "streetAddress": "97 Main Street"
+    },
+    "salary": 127000
+  },
+  {
+    "_id": 98,
+    "name": {
+      "firstName": "Arif",
+      "lastName": "Khan"
+    },
+    "email": "arif98@gmail.com",
+    "phone": "01710000098",
+    "gender": "male",
+    "birthday": "2008-09-15",
+    "age": 28,
+    "role": "user",
+    "skills": [
+      {
+        "name": "Kotlin",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "TypeScript",
+        "level": "intermediate",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "advanced",
+        "isLearning": true
+      },
+      {
+        "name": "Python",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "1984",
+      "author": "Arif Khan",
+      "year": 2018
+    },
+    "occupations": {
+      "title": "Consultant",
+      "company": "IBM",
+      "yearsOfExperience": 9
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "interests": [
+      "coding",
+      "music",
+      "sports"
+    ],
+    "country": {
+      "countryName": "Myanmar",
+      "postalCode": "1008",
+      "streetAddress": "98 Main Street"
+    },
+    "salary": 128000
+  },
+  {
+    "_id": 99,
+    "name": {
+      "firstName": "Sadia",
+      "lastName": "Noor"
+    },
+    "email": "sadia99@gmail.com",
+    "phone": "01710000099",
+    "gender": "female",
+    "birthday": "2009-01-15",
+    "age": 29,
+    "role": "user",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": "beginner",
+        "isLearning": false
+      },
+      {
+        "name": "JavaScript",
+        "level": "intermediate",
+        "isLearning": true
+      }
+    ],
+    "favoriteBooks": {
+      "title": "Pride and Prejudice",
+      "author": "Sadia Noor",
+      "year": 2019
+    },
+    "occupations": {
+      "title": "Entrepreneur",
+      "company": "Intel",
+      "yearsOfExperience": 10
+    },
+    "friends": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Eve"
+    ],
+    "interests": [
+      "coding"
+    ],
+    "country": {
+      "countryName": "China",
+      "postalCode": "1009",
+      "streetAddress": "99 Main Street"
+    },
+    "salary": 129000
+  },
+  {
+    "_id": 100,
+    "name": {
+      "firstName": "Salah",
+      "lastName": "Uddin"
+    },
+    "email": "salah100@gmail.com",
+    "phone": "01710000100",
+    "gender": "male",
+    "birthday": "2000-02-15",
+    "age": 20,
+    "role": "admin",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "beginner",
+        "isLearning": true
+      },
+      {
+        "name": "Python",
+        "level": "intermediate",
+        "isLearning": false
+      }
+    ],
+    "favoriteBooks": {
+      "title": "The Catcher in the Rye",
+      "author": "Salah Uddin",
+      "year": 2000
+    },
+    "occupations": {
+      "title": "Software Engineer",
+      "company": "Google",
+      "yearsOfExperience": 1
+    },
+    "friends": [
+      "Alice"
+    ],
+    "interests": [
+      "coding",
+      "music"
+    ],
+    "country": {
+      "countryName": "Bangladesh",
+      "postalCode": "1000",
+      "streetAddress": "100 Main Street"
+    },
+    "salary": 130000
+  }
+]

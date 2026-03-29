@@ -1,1 +1,0 @@
-console.log('Hello from module1/src-mongos/index.ts');
