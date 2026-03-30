@@ -16,4 +16,6 @@ myEmitter.on('called', (name) => {
 
 // Emitting the 'birthday' event with the specified name and gift. This will trigger the event listener registered for the 'birthday' event, and the corresponding message will be logged to the console.
 myEmitter.emit('birthday', 'Alice', 'new car');
+
+// Emitting the 'called' event with the specified name. This will trigger the event listener registered for the 'called' event, and the corresponding message will be logged to the console.
 myEmitter.emit('called', 'Bob');
