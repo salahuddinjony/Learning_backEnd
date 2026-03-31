@@ -19,8 +19,47 @@ const logger = (req: Request, res: Response, next: NextFunction) => {
 //     res.send('This route uses the logger middleware');
 // });
 
+// Define a route for handling user-related requests
+const userRouter = express.Router();
+const courseRouter = express.Router();
 
-// Define a route for the root URL
+// Use the userRouter for routes starting with /api/v1/users
+app.use('/api/v1/users', userRouter);
+app.use('/api/v1/courses', courseRouter);
+
+
+// Define a POST route for creating a user
+userRouter.post('/create-user',logger, (req: Request, res: Response) => {
+    res.statusCode = 201;
+    const user = req.body; // Assuming you have middleware to parse JSON body
+    console.log(user); // Log the received user data
+    res.json(
+        {
+            status: 'success',
+            statusCode: 200,
+            message: 'User data retrieved successfully!',
+            data: user, // Echo back the received data
+            timestamp: new Date().toISOString()
+        }
+    )
+});
+
+courseRouter.post('/create-course',logger, (req: Request, res: Response) => {
+    res.statusCode = 201;
+    const course = req.body; // Assuming you have middleware to parse JSON body
+    console.log(course); // Log the received course data
+    res.json(
+        {
+            status: 'success',
+            statusCode: 200,
+            message: 'Course data retrieved successfully!',
+            data: course, // Echo back the received data
+            timestamp: new Date().toISOString()
+        }
+    )
+});
+
+// Define a route for the root URL-without Express Router
 app.get("/:userId/:username",logger, (req: Request, res: Response) => {
     res.statusCode = 200;
     // res.send('Hello, World!');
